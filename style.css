@@ -1,8 +1,4 @@
 :root {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
   /* COLORS */
   --slate-900: hsla(218, 44%, 22%, 1);
   --slate-500: hsla(216, 15%, 48%, 1);
@@ -19,6 +15,12 @@
 
   --h1: 1.375rem 120% var(--font-family);
   --p: 0.9375rem 140% var(--font-family);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
